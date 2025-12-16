@@ -8,27 +8,11 @@ Krishi-Sahay is a web platform designed to modernize agricultural credit assessm
 
 * Alternative credit scoring** based on agricultural practices
 * Multi-language support:** English, Hindi, and Marathi
-* * Demo OCR-ready architecture** for 7/12 land document verification
+* Demo OCR-ready architecture** for 7/12 land document verification
 * Rule-based intelligent credit assessment**
 * Loan calculator** for EMI & repayment planning
 * Integrated multilingual chatbot**
 * *Mobile-first responsive design**
-
-
-
-🏗️ Architecture
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Frontend│────│     Flask API    │────│  SQLite Database │
-│   (TypeScript)  │    │     (Python)     │    │     (Dev)        │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  OCR Simulation  │    │ Credit Algorithm│    │  Demo Data JSON │
-│  (Tesseract.js)  │    │   (Rule-based)  │    │ (Multi-language)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
 
 🛠️ Technology Stack
 
@@ -49,12 +33,8 @@ Backend
 Database
 
 * SQLite (Dev)
-* PostgreSQL (Prod)
-* Redis (Caching)
 
 Other
-
-* OCR: Tesseract.js (Planned)
 * Dev Tools: npm, ESLint, TypeScript, PostCSS, Autoprefixer
 
 🚀 Quick Start
